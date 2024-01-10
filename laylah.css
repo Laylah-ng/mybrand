@@ -7,3 +7,27 @@
 
 
 }
+.pict-container{
+    position: relative;
+}
+.caption{
+    position: absolute;
+    top: 50%
+}
+.shop{
+    background-color: white;
+    border: white;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+@media (min-width: 698px) {
+
+.pict{
+    height: 620px;
+    object-fit: cover;
+    
+}
+}
+
+
