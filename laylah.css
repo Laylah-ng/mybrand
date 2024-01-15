@@ -110,5 +110,21 @@
     }
     
 }
+.more-container{
+    background-color: rgb(46, 6, 6);
+   display: flex;
+   justify-content: center;
+   padding-bottom: 50px;
 
+}
+.more{
+    background-color: white;
+    outline: 0;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 15px;
+}
 
+.foot{
+    background-color: rgb(46, 6, 6);
+}
