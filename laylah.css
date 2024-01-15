@@ -1,5 +1,6 @@
+/* navbar */
 .brown{
-    background-color: rgb(61, 7, 7);
+    background-color: rgb(46, 6, 6);
     height: 70px;
 }
 .background{
@@ -7,6 +8,7 @@
 
 
 }
+/* carousel */
 .pict-container{
     position: relative;
 }
@@ -21,6 +23,9 @@
     font-size: 15px;
     font-weight: bold;
 }
+
+/* products */
+
 @media (min-width: 698px) {
 
 .pict{
@@ -28,6 +33,82 @@
     object-fit: cover;
     
 }
+}
+/* about text*/
+.about{
+    background-color: rgb(46, 6, 6);
+   
+}
+.about>p{
+     color: white;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 0;
+
+}
+/* Abaya collections */
+.abaya{
+    background-color: rgb(46, 6, 6);
+    color: white;
+    margin: 0;
+    padding-bottom: 50px;
+    text-align: center;
+    
+}
+ .product{
+    object-fit: cover;
+    width: 250px;
+    height: 350px;    
+} 
+.sold{
+    color: white;
+    position:relative;
+}
+
+.product-container{
+    background-color: rgb(46, 6, 6); 
+    padding-bottom: 50px;
+}
+
+@media (max-width: 698px) {
+    .product-container{
+        display: grid;
+        justify-content: center;
+        gap: 50px;
+    }
+    
+}
+@media (min-width: 699px) {
+    .product-container{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: auto auto;
+        column-gap: 55px;
+        
+    }
+    .about>p{
+        width: 70%;
+        font-size: 1.8vw;
+        margin: 0 auto;
+    }
+    
+}
+@media (min-width: 900px) {
+    .product-container{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: auto auto auto;
+        column-gap: 50px;
+    }
+     .about>p{
+        width: 50%;
+        font-size: 15px;
+        margin: 0 auto;
+    }
+    
 }
 
 
